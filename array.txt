@@ -1,0 +1,25 @@
+package numbers;
+
+import java.util.Arrays;
+
+		public class Aray {
+
+			public static void main(String[] args)
+			{
+				char[] alpha = new char[] {'a','b','c'};
+				char alpha1[]= alpha.clone();
+				int len= alpha.length;
+				alpha[0] ='a';
+				alpha[1]='b';
+		 String name="welcome java ";
+		  System.out.println(Arrays.toString(alpha));
+		  System.out.println(alpha1);
+		  System.out.println(len);
+		  System.out.println(alpha[1]);
+		  System.out.println(name);
+		  System.out.println(name.length());
+			}
+
+		}
+
+
